@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-willsides-pagebreak-header h2 {
+  display: flex;
+  align-items: center;
+  margin: 1em -1em;
+  font-size: 2em;
+}
+.wp-block-willsides-pagebreak-header h2:after {
+  height: 3px;
+  margin: 0 1em;
+  content: "";
+  flex: 1;
+  /*	  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0, 1)); */
+  background-image: radial-gradient(at left, black, transparent 80%);
+}
+.wp-block-willsides-pagebreak-header h2:before {
+  height: 3px;
+  margin: 0 1em;
+  content: "";
+  flex: 1;
+  /*	  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));*/
+  background-image: radial-gradient(at right, black, transparent 80%);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

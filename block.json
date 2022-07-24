@@ -1,0 +1,21 @@
+{
+	"apiVersion": 2,
+	"name": "willsides/pagebreak-header",
+	"version": "1.0.0",
+	"title": "Pagebreak Header",
+	"category": "design",
+	"icon": "minus",
+	"description": "Displays header text within a pagrbreak line",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+        "headertext": {
+            "type": "string"
+        }
+	},
+	"textdomain": "pagebreak-header",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
